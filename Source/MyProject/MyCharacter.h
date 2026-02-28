@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "InputActionValue.h"
 #include "MyCharacter.generated.h"
 
 UCLASS()
@@ -30,5 +31,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category =  "Enchanced Input")
 	class UInputMappingContext* InputMapping;
+
+	UPROPERTY(EditAnywhere, Category = "Enchanced Input")
+	class UInputAction* TestAction;
+
+	void NewInput();
 
 };

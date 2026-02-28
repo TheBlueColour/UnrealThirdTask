@@ -3,8 +3,8 @@
 
 #include "MyCharacter.h"
 #include "InputMappingContext.h"
-#include "EnchancedInputSubsystems.h"
-#include "EnchancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
+#include "EnhancedInputComponent.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -33,13 +33,24 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	if(APlayerController* PlayerController = Cast<APlayerController>(Controller)){
+	if(APlayerController* PlayerController = Cast<APlayerController>(Controller)){ //adding input mapping context
 
-		if(UEnchancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnchancedInputLocalPlayerSubsystem>(PlayerController->GetlocalPlayer()))
+		// setting local player subsystem
+		if(UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
 		{
-			Subsystem->AddMappingContext(InputMapping, 0)
+			// adding input context
+			Subsystem->AddMappingContext(InputMapping, 0);
 		}
+	}
+
+	if (UEnhancedInputComponent* Input = CastChecked<UEnhancedInputComponent>(PlayerInputComponent)){
+
+		Input->BindAction(TestAction, ETriggerEvent::Triggered, this, &AMyCharacter::NewInput);
 	}
 
 }
 
+void AMyCharacter::NewInput() //this is the input that it calls to do
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, "Pressed Input!!");
+}
