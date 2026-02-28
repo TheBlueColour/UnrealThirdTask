@@ -45,7 +45,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	if (UEnhancedInputComponent* Input = CastChecked<UEnhancedInputComponent>(PlayerInputComponent)){
 
-		Input->BindAction(TestAction, ETriggerEvent::Triggered, this, &AMyCharacter::NewInput);
+		Input->BindAction(TestAction, ETriggerEvent::Triggered, this, &AMyCharacter::NewInput); //It's binding Input to NewInput aka what it needs to do?
 	}
 
 }

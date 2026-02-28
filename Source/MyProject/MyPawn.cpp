@@ -28,10 +28,10 @@ void AMyPawn::Tick(float DeltaTime)
 }
 
 // Called to bind functionality to input
-void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) //UInputComponent* PlayerInputComponent
 {
 	// Super::SetupPlayerInputComponent(PlayerInputComponent);
-    UEnhancedInputComponent* Input = Cast<UEnhancedInputComponent>(PlayerInputComponent);
+    //UEnhancedInputComponent* Input = Cast<UEnhancedInputComponent>(PlayerInputComponent);
     // Input->BindAction(AimingInputAction, ETriggerEvent::Triggered, this, &AMyPawn::SomeCallbackFunc);
 
     /*if (UEnhancedInputComponent* EnhancedInput = Cast<UEnhancedInputComponent>(PlayerInputComponent))
