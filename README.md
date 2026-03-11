@@ -94,3 +94,5 @@ Lastly in our GameMode Blueprint, we change the default pawn class to the Player
 Example Gif of this code working:
 
 ![The Input](Input.gif)
+
+To allow this to easily work with Gamepad, I would just need to bind the Gamepad buttons into the Input Mapping Context, where I initally bind the buttons on the keyboard to this inputs.
