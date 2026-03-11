@@ -1,41 +1,41 @@
 [
 	{
-		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyCharacter.cpp",
+		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\Source\\MyProject\\MyCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyCharacter.h",
+		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\Source\\MyProject\\MyCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyProject.Build.cs",
+		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\Source\\MyProject\\MyProject.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyProject.cpp",
+		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\Source\\MyProject\\MyProject.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyProject.h",
+		"file": "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\Source\\MyProject\\MyProject.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+			"@C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\5.6\\Engine\\Source"
 	}

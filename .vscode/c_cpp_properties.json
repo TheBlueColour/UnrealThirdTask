@@ -7,7 +7,7 @@
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
-                "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject.json"
+                "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_MyProject.json"
             ]
         },
         {
@@ -17,7 +17,7 @@
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
-                "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_Default.json"
+                "C:\\Users\\2506784\\Documents\\GitHub\\UnrealThirdAndFourthTask\\.vscode\\compileCommands_Default.json"
             ]
         }
     ],
