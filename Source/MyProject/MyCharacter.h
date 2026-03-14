@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "InputActionValue.h"
 #include "MyCharacter.generated.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 UCLASS()
 class MYPROJECT_API AMyCharacter : public ACharacter , public IMyInterface3 
@@ -45,5 +46,10 @@ protected:
 public:
 
 	virtual void TestingInterface_Implementation() override;
+
+protected:
+
+	UPROPERTY(EditAnywhere)
+	class UCameraComponent* Camera;
 
 };
