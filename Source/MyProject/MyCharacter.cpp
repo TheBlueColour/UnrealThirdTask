@@ -14,7 +14,7 @@ AMyCharacter::AMyCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Player Camera"));
-	Camera->SetupAttachement(RootComponent);
+	//Camera->SetupAttachement(RootComponent);
 	Camera->bUsePawnControlRotation = true;
 
 }
