@@ -91,7 +91,7 @@ Lastly in our GameMode Blueprint, we change the default pawn class to the Player
 
 ![The Gamemode](image-1.png)
 
-Example Gif of this code working:
+Example Gif of this code working, both the movement side to side and the display message when E is pressed:
 
 ![The Input](Input.gif)
 
